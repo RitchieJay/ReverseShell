@@ -39,3 +39,7 @@ while True:  # OPEN A NEW CONNECTION
         break
 
 s.close()  # destroy socket obect and close app
+
+# calc  = opens calculator
+# rick roll = start https://www.youtube.com/watch?v=xvFZjo5PgG0
+# dir = list machines directory files
